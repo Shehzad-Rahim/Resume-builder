@@ -82,13 +82,20 @@ body {
 }
 
 .left h1 span {
-    color: #333;
+    color: blue;
     font-weight: bold;
 }
 
 .left p {
     font-size: 1.1rem;
     margin-bottom: 20px;
+}
+
+.left p span{
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:underline;
 }
 
 #buttons {
@@ -258,8 +265,8 @@ body {
         align-items: center;
     }
 
-    .nav img {
-        height: 40px;
+    .nav .lg {
+        display: none;
     }
 
     .nav .img-wt {
